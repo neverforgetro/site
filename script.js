@@ -110,17 +110,3 @@ running = true;
 reset();
 raf(loop);
 /**/
-
-$(function(){
-
-   
-  var rendertime =0;
-  $('#btn').on('click',function(){
-    myFunction()
-  })
-
-  function myFunction() {
-    window.open("https://www.w3schools.com");
-  }
-
-})
